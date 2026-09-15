@@ -17,9 +17,7 @@
     0 30px 80px rgba(38, 22, 10, 0.25);
 }
 
-.login-main-div {
-    overflow: hidden;
-}
+
 
 /* =========================================================
    MAIN PAGE
@@ -1025,4 +1023,9 @@
     font-size: 14px;
   }
 
+}
+
+
+input[type=text] {
+    color: var(--auth-primary-dark);
 }

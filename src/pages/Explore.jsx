@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Explore';
+
 export default function Explore() {
   return (
     <main id="main" className="explore-page">
@@ -58,5 +60,6 @@ export default function Explore() {
         </section>
       </div>
     </main>
+    
   );
 }
