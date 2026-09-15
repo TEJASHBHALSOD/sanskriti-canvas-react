@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
 
-      <Header/>
+      <Navbar/>
       <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About/>}/>
@@ -26,7 +26,6 @@ function App() {
           <Route exact path="/businessloan" element={<Businessloan/>}/>
           <Route exact path="/homeloan" element={<Homeloan/>} />
         </Routes>
-      <Footer/>
       </Router>
     </div>
   );

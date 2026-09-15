@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/images/logo-full.png';
 import logoMark from '../assets/images/logo-mark.png';
 
-export default function Header() {
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleSearchSubmit = (e) => {
